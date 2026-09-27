@@ -1,1 +1,17 @@
-{"title":"Papago 2TH ETH sensors checks","name":"cmk-papouch-papago2theth","description":"monitoring Papago 2TH ETH sensors using SNMP","version":"2.3.1","version.packaged":"cmk-mkp-tool 3.0.0","version.min_required":"2.3.0","version.usable_until":null,"author":"Vaclav Ovsik","download_url":"https://github.com/zito/cmk-papouch-papago2theth","files":{"cmk_addons_plugins":["papouch/agent_based/papouch_papago2theth.py"]}}
+{
+  "title": "Papago 2TH ETH and TH 2DI DO ETH checks",
+  "name": "cmk-papouch-papago2theth",
+  "description": "Monitor Papago 2TH ETH and TH 2DI DO ETH sensors, digital inputs, counters and relay status using SNMP",
+  "version": "2.3.2",
+  "version.packaged": "cmk-mkp-tool 3.0.0",
+  "version.min_required": "2.3.0",
+  "version.usable_until": null,
+  "author": "Vaclav Ovsik",
+  "download_url": "https://github.com/Yngvarr7/cmk-papouch-papagoth2didoeth",
+  "files": {
+    "cmk_addons_plugins": [
+      "papouch/agent_based/papouch_papago2theth.py",
+      "papouch/agent_based/papouch_papago_th2dido.py"
+    ]
+  }
+}
